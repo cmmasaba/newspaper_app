@@ -8,7 +8,7 @@
     </div>
     <p>
         <a href="{% url 'article_edit' article.pk %}">Edit</a> |
-        <a href="{% url 'article_delete' article.pk %}"></a>
+        <a href="{% url 'article_delete' article.pk %}">Delete</a>
     </p>
     <p>Back to <a href="{% url 'article_list' %}">all articles</a></p>
 {% endblock content %}
